@@ -12,13 +12,7 @@ app = Flask(__name__)
 def hello_world():
     """Example Hello World route."""
 
-    return f"Hello World!!!@@@@!!!
-<<<<<<< HEAD
-             welcome to cloud world!!!###"
-=======
-      wlecome to cloud world"
->>>>>>> 517e80b6f85f7b56b805a099fd588df9c04ba685
-
+    return f"Hello World!!!@@@@!!! welcome to cloud world!!!###"
 
 @app.route("/event_looks", methods=['POST'])
 def event_looks():
